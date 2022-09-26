@@ -47,12 +47,30 @@ nav a {
     margin: 15px;
 }
 
+/*Nav bar hover animation*/
+nav a:hover {
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px black;
+    color: var(--accent-text);
+}
+
+/*main landing section*/
 h2 {
     color: var(--accent-text);
     font-size: 52px;
     position: relative;
     left: 35%;
     top: 125px;
+}
+
+p {
+    font-family: sans-serif;
+    position: relative;
+    left: 35%;
+    top: 105px;
+    width: 30%;
+    color: var(--basic-text);
+    line-height: 150%;
 }
 
 
