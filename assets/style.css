@@ -159,11 +159,9 @@ p {
 
 
 @media screen and (max-width: 980px) {
-    #row1,
-    #row2,
-    #row3, {
-        flex-direction: column;
-}
+    #row1 {
+        flex: 1 0 50%;
+    }
 }
 
 
