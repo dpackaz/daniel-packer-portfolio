@@ -99,11 +99,11 @@ p {
     color: var(--accent-text);
     font-size: 48px;
     position: relative;
-    left: 35%;
+    left: 25%;
 }
 
 #big-one {
-    width: 60%;
+    width: 50%;
     border: 1px solid white;
     margin: auto;
 }
@@ -133,12 +133,27 @@ p {
 
 
 #contact h3 {
+    color: var(--accent-text);
+    font-size: 48px;
+    position: relative;
+    left: 25%;
+}
 
+#contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    width: 50%;
+    margin-left: 25%;
 }
 
 
-
-
+@media screen and (max-width: 768px) {
+    
+}
 
 
 
