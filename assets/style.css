@@ -99,22 +99,30 @@ h3 {
     color: var(--accent-text);
     font-size: 48px;
     position: relative;
-    left: 30%;
+    left: 35%;
 }
 
 .study-guide-card {
-    margin: 20%;
+    margin-left: 50%;
     flex: 2 0 100%;
-    text-align: left;
+    position: relative;
+    text-align: center;
     border-style: none;
     align-items: center;
-    justify-content: left;
-
 }
 
 .study-guide-card img {
     width: 100%;
     min-width: 50%;
+}
+
+.study-guide-card header {
+    font-size: 18px;
+    font-family: sans-serif;
+    position:absolute;
+    top: 3%;
+    background-color: #2e3638;
+    width: 100%;
 }
 
 .card {
