@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 /*main landing section*/
-h2 {
+#about h2 {
     color: var(--accent-text);
     font-size: 52px;
     position: relative;
@@ -95,41 +95,118 @@ p {
 }
 
 /*Work heading*/
-h3 {
+#work h3 {
     color: var(--accent-text);
     font-size: 48px;
     position: relative;
     left: 35%;
 }
 
+#big-one {
+    width: 60%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+#row1 {
+    flex: 2 0 
+}
+
+#study-guide {
+    width: 100%;
+}
+
+.cards {
+    width: 49%;
+}
+
+.cards img{
+    width: 100%;
+}
+
+#row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+#contact h3 {
+    
+}
+
+
+
+
+
+
+
+
+
+
 .study-guide-card {
     margin-left: 50%;
     flex: 2 0 100%;
     position: relative;
-    text-align: center;
-    border-style: none;
-    align-items: center;
 }
 
 .study-guide-card img {
     width: 100%;
-    min-width: 50%;
+    min-width: 500px;
 }
 
 .study-guide-card header {
     font-size: 18px;
     font-family: sans-serif;
     position:absolute;
-    top: 3%;
+    top: 5%;
     background-color: #2e3638;
     width: 100%;
 }
 
-.card {
+.card1 {
+    margin-left: 50%;
     flex: 1 0 0;
-    margin: 10px;
+    position: relative;
     text-align: left;
 
+}
+
+.card1 img {
+    width: 50%;
+    min-width: 50%;
+}
+
+.card1 header {
+    font-size: 18px;
+    font-family: sans-serif;
+    position:absolute;
+    top: 5%;
+    background-color: #2e3638;
+    width: 100%;
+}
+
+.card2 {
+    margin-left: 50%;
+    flex: 1 0 0;
+    position: relative;
+    text-align: right;
+
+}
+
+.card2 img {
+    width: 50%;
+    min-width: 50%;
+}
+
+.card2 header {
+    font-size: 18px;
+    font-family: sans-serif;
+    position:absolute;
+    top: 5%;
+    background-color: #2e3638;
+    width: 100%;
 }
 
 @font-face {

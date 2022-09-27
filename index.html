@@ -10,14 +10,14 @@
         <header class="sticky">
             <h1>DP</h1>
             <nav>
-                <a href="#">About</a>
-                <a href="#">Work</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
 
         <main class="main">
-            <section>
+            <section id="about">
                 <h2>Hi, I'm Daniel!</h2>
                 <p>
                     My name is Daniel Packer. I am an experienced marketing
@@ -29,20 +29,34 @@
                 </p>
                 <img id="me" src="../assets/images/cropped-cabin-picture.jpg" alt="Daniel Packer"/>
             </section>
-            <section>
+            <section id="work">
                 <h3>Work</h3>
-                    <section class="study-guide-card">
-                        <header>Bootcamp Study Guide, HTML/CSS</header>
-                        <img id="study-guide" src="../assets/images/student-desk.jpg" alt="student desk"/>
-                    </section>
-                    <section class="card">
+                    <section id="big-one">
+                        <section id="row1">
+                            <section >
+                                <header>Bootcamp Study Guide - HTML/CSS</header>
+                                <img id="study-guide" src="../assets/images/student-desk.jpg" alt="student desk"/>
+                            </section>
+                        </section>
+                        <section id="row2">
+                            <section class="cards">
+                                <header>CSS Cheatsheet - CSS/HTML</header>
+                                <img src="../assets/images/sticky-notes.jpg" alt="sticky-notes"/>
+                            </section>
+                            <section class="cards">
+                                <header>Traffic App Placeholder</header>
+                                <img src="../assets/images/traffic.jpg" alt="traffic jam"/>
+                            </section>
+                        </section>
+                        <section id="row3">
 
+                        </section>
                     </section>
             </section>
         </main>
 
-        <section>
-            <h4>Contact</h4>
+        <section id="contact">
+            <h3>Contact</h3>
         </section>
 
 
