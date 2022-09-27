@@ -54,20 +54,26 @@ nav a:hover {
     color: var(--accent-text);
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /*main landing section*/
 h2 {
     color: var(--accent-text);
     font-size: 52px;
     position: relative;
     left: 42%;
-    top: 125px;
+    top: 225px;
 }
 
 p {
     font-family: sans-serif;
     position: relative;
     left: 42%;
-    top: 105px;
+    top: 205px;
     width: 30%;
     color: var(--basic-text);
     line-height: 150%;
@@ -78,7 +84,44 @@ p {
     height: auto;
     position: relative;
     left:25%;
-    top:-185px;
+    top:-85px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 5px ;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Work heading*/
+h3 {
+    color: var(--accent-text);
+    font-size: 48px;
+    position: relative;
+    left: 30%;
+}
+
+.study-guide-card {
+    margin: 20%;
+    flex: 2 0 100%;
+    text-align: left;
+    border-style: none;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.study-guide-card img {
+    width: 100%;
+    min-width: 50%;
+}
+
+.card {
+    flex: 1 0 0;
+    margin: 10px;
+    text-align: left;
+
 }
 
 @font-face {
